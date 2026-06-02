@@ -99,4 +99,4 @@ Then import `final_weather_comparison.csv` into Power BI to build the comparison
 
 ## Notes
 
-The PostgreSQL load script limits the import to 72 MongoDB documents, so the comparison is based on that subset rather than the entire MongoDB collection [file:445]. The final merge aligns rows by generated `row_id`, which means the comparison is positional rather than based on a natural join key such as date-time equality [file:447].
+The PostgreSQL load script limits the import to 72 MongoDB documents, so the comparison is based on that subset rather than the entire MongoDB collection. The final merge aligns rows by generated `row_id`, which means the comparison is positional rather than based on a natural join key such as date-time equality.
