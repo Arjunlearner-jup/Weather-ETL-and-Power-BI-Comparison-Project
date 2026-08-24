@@ -86,7 +86,7 @@ pip install requests pymongo psycopg2 pandas
 
 ## How to run
 
-Run the scripts in this order to reproduce the pipeline [file:444][file:445][file:446][file:447]:
+Run the scripts in this order to reproduce the pipeline:
 
 ```bash
 python 01extractjson.py
@@ -95,7 +95,7 @@ python 03strucsv.py
 python 04final_merge.py
 ```
 
-Then import `final_weather_comparison.csv` into Power BI to build the comparison report [file:447][file:448].
+Then import `final_weather_comparison.csv` into Power BI to build the comparison report.
 
 ## Notes
 
